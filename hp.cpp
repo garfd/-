@@ -26,15 +26,6 @@ int main()
 	return 0;
 }
 
-void print_list(int list[], int n)
-{
-		cout << "array: ";
-	for (int i = 0; i < n; i++) {
-		//cout << list[i];
-	cout << list[i];
-	}
-	cout << "\n";
-}
 
 void selection_sort(int list[], int n)
 {
