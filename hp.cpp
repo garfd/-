@@ -6,6 +6,9 @@ const int SIZE = 10;
 void selection_sort(int list[], int n);
 void print_list(int list[], int n);
 
+int temp;
+
+
 int main()
 {
 	int grade[SIZE] = { 3, 2, 9, 7, 1, 4, 8, 0, 6, 5 };
